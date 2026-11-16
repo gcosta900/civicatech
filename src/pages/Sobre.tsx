@@ -1,4 +1,5 @@
 export function Sobre() {
+  
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-8">
       <h1 className="text-3xl font-extrabold text-slate-900">Sobre a CivicaTech</h1>
