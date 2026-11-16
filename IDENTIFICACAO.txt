@@ -1,0 +1,6 @@
+GLOBAL SOLUTION 2026/2 - CITIZENTECH
+Projeto: CivicaTech (Zeladoria Urbana Colaborativa)
+Disciplina: Front-End Design Engineering
+
+Integrantes:
+- Gustavo Costa Moreira Pinheiro de Almeida | RM: 573074 | Turma: 1TDSPV
