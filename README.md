@@ -61,9 +61,9 @@ civicatech/
    ```
 
 ## Links do Projeto
-- **Repositório GitHub:** https://github.com/seu-usuario/civicatech
-- **Deploy Front-End (Vercel):** https://civicatech.vercel.app
-- **API Back-End (Render):** https://civicatech-api.onrender.com
+- **Repositório GitHub:**[https://github.com/gcosta900/civicatech]
+- **Deploy Front-End (Vercel):** [https://civicatech-lwku.vercel.app]
+- **API Back-End (Render):** [https://civicatech-api.onrender.com]
 - **Vídeo Demonstração (YouTube):** https://youtu.be/seu-video-aqui
 
 ## Integrantes
