@@ -1,74 +1,21 @@
-# CivicaTech — Zeladoria Urbana Colaborativa
+# CivicaTech - Plataforma de Zeladoria Urbana Colaborativa
 
-## Objetivo
-Plataforma CitizenTech desenvolvida para a Global Solution 2026/2 (FIAP) que permite aos cidadãos registrar, priorizar e acompanhar problemas de manutenção em espaços públicos, conectando moradores e gestores urbanos em alinhamento com o ODS 11 da ONU (Cidades e comunidades sustentáveis).
+Aplicacao web desenvolvida em React, TypeScript e Tailwind CSS para a Global Solution 2026/2 da FIAP (Turma 1TDSPV), conectada a uma API RESTful em Java (Spring Boot + JDBC) e banco de dados Oracle.
 
-## Tecnologias Utilizadas
-- React 18 + Vite
-- TypeScript
-- Tailwind CSS
-- React Router DOM
-- Fetch API (integração exclusiva sem bibliotecas externas de HTTP)
+## Integrante
+- Nome: Gustavo Costa Moreira Pinheiro de Almeida
+- RM: 573074
+- Turma: 1TDSPV
 
-## Estrutura de Pastas
-```text
-civicatech/
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-├── vite.config.ts
-├── IDENTIFICACAO.txt
-├── README.md
-└── src/
-    ├── main.tsx
-    ├── App.tsx
-    ├── index.css
-    ├── types/
-    │   └── ocorrencia.ts
-    ├── services/
-    │   └── api.ts
-    ├── components/
-    │   ├── Navbar.tsx
-    │   ├── Footer.tsx
-    │   └── OcorrenciaCard.tsx
-    └── pages/
-        ├── Home.tsx
-        ├── Ocorrencias.tsx
-        ├── OcorrenciaDetalhes.tsx
-        ├── Sobre.tsx
-        ├── Integrantes.tsx
-        ├── Faq.tsx
-        └── Contato.tsx
-```
+## Links Oficiais do Projeto
+- Repositorio Front-End (GitHub): https://github.com/gcosta900/civicatech
+- Aplicacao Publicada (Vercel): https://civicatech-lwku.vercel.app
+- API Back-End Java (Render): https://civicatech-api.onrender.com
+- Repositorio Back-End (GitHub): https://github.com/gcosta900/civicatech-api
+- Video Demonstracao (YouTube): https://youtu.be/COLE_AQUI_O_LINK_DO_SEU_VIDEO
 
 ## Como Executar Localmente
-1. Extraia o arquivo ZIP e acesse a pasta `civicatech` no terminal:
-   ```bash
-   cd civicatech
-   ```
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-3. Configure a URL da API Java criando um arquivo `.env` na raiz (baseado no `.env.example`):
-   ```env
-   VITE_API_URL=https://civicatech-api.onrender.com
-   ```
-4. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-
-## Links do Projeto
-- **Repositório GitHub:**[https://github.com/gcosta900/civicatech]
-- **Deploy Front-End (Vercel):** [https://civicatech-lwku.vercel.app]
-- **API Back-End (Render):** [https://civicatech-api.onrender.com]
-- **Vídeo Demonstração (YouTube):** https://youtu.be/seu-video-aqui
-
-## Integrantes
-- **Gustavo Costa Moreira Pinheiro de Almeida** — RM: 573074 — Turma: 1TDSPV
-
-## Contato
-contato@civicatech.com.br
-
+1. Clone o repositorio: git clone https://github.com/gcosta900/civicatech.git
+2. Instale as dependencias: npm install
+3. Crie o arquivo .env com VITE_API_URL=https://civicatech-api.onrender.com
+4. Execute: npm run dev
